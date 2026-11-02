@@ -36,3 +36,36 @@ The full original `Online Retail.xlsx` dataset is **not distributed**. Use a pro
 - The sample inputs are demonstrations and **do not reproduce the original reported row counts or performance**.
 - The schema supplied here is a compatible illustration for standalone practice, not the group-owned schema.
 - Do not upload real customer-level data, secrets or collaborator-owned files without permission. Follow any applicable university/project sharing rules.
+
+
+
+## Academic ETL Execution Results
+
+The following screenshots document my Member 2 ETL and Data Engineering contribution to the original university group project.
+
+These results are from the original academic execution, not the standalone GitHub demonstration.
+
+### RUN 1 — Initial ETL Execution
+
+- Extracted records: 541,909
+- Cleaned records: 529,143
+- Rejected records: 12,766
+- Loaded cleaned sales data into the warehouse.
+
+![RUN 1 ETL Execution](evidence/01-run1-etl-summary.png)
+
+### RUN 2 — Incremental ETL and SCD Type 2
+
+- Processed 8 records.
+- Validated one SCD Type 2 customer history change.
+- Demonstrated preservation of historical customer information.
+
+![RUN 2 ETL Execution](evidence/02-run2-scd2-summary.png)
+
+### Additional Validation Evidence
+
+- [ETL Run History](evidence/03-etl-run-history.png)
+- [SCD Type 2 Customer History](evidence/04-scd-type2-customer-history-redacted.png)
+- [Fact Sales Validation](evidence/05-fact-sales-validation.png)
+
+All evidence screenshots have been sanitized to remove sensitive details.
